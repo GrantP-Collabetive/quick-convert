@@ -4,7 +4,7 @@ Used to quickly build sql statmements while documenting conversions of Database 
 
 Use Case: A client comes from software XYZ and needs to be converted. Using this tool we document everything that we need to convert them over to our system. This tool outputs the json file see below. That file is then loaded into a Blu Star system that goes through the steps and executes the insert statements. This json file is then marked as usable with XYZ software and the next time a client using XYZ software needs to be converted instead of going through the process we just reuse the json file.
 
-Use Case: A client comes in from an already known and converted software and asks if they could see what their data would work on our system. We load the json file that corisponds with their software source into a Blu Star page that runs all of the select statements and outputs it in a csv file for use in a spreadsheet program so they can verify their data before we convert them over.
+Use Case: A client comes in from an already known and converted software and asks if they could see if their data would work on our system. We load the json file that corisponds with their software source into a Blu Star page that runs all of the select statements and outputs it in a csv file for use in a spreadsheet program so they can verify their data before we convert them over.
 
 Use Case: A dev wants to see the relations between their data and ours. Quickly convert the KVPs to both a to and from spreadsheet to fill out the data tracking.
 
@@ -36,7 +36,7 @@ This tool is built on [Go](https://go.dev)
 
 ## TODO Tasks
 
-- [❌] Dynamically add input fields for columns and joins so its always n+1
+- [❌] Dynamically add input fields for columns and joins so there are always n+1 rows
 - [❌] Accommodate dynamic inputs in the string builder
 - [❌] Drop down lists to allow the user to select different join types
 - [❌] Where clause input
