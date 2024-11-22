@@ -16,14 +16,23 @@ Use Case: A dev wants to see the relations between their data and ours. Quickly 
 
 ![images](images/output.png)
 
-## How to run
+## Install
+
+1. Go to the [releases page](https://github.com/GrantP-Collabetive/quick-convert/releases)
+2. Find the file called convert
+3. Download the .exe if you are using Windows or the one just called convert if you are using a Unix system
+4. Run the executable. There is no install process it should just open.
+
+## How to build locally
 
 This tool is built on [Go](https://go.dev)
 
 1. [Install](https://go.dev/dl/) go on your system
-2. Download the Latest Version of [Quick Convert](https://github.com/GrantP-Collabetive/quick-convert/archive/refs/heads/main.zip) from github
+2. pull the Latest Version of Quick Convert from github
 3. Open a terminal at the root of the Quick Convert folder
-4. Launch the program using `go run .`
+4. Run the command `go get .`
+5. Launch the program using `go run .`
+6. Build using `go build .`
 
 ## TODO Tasks
 
@@ -36,7 +45,7 @@ This tool is built on [Go](https://go.dev)
 - [] Update the json to have a documented relation between tables and their columns
 - [] Update json stuct to use this format {stepName, toTableName, fromTableName, fromToColRelations[], toFromColRelations[], selectStatement, insertStatement}
 - [] Listview displays json in beautified format
-- [] Packaged executable/enviroment for ease of use
+- [✅] Packaged executable/enviroment for ease of use
 - [] Load saved steps back into the program use the fromToColRelations for this
 - [] Allow Editing of steps
 - [] Make forms have scrolling for overflowed content
