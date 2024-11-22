@@ -36,19 +36,19 @@ This tool is built on [Go](https://go.dev)
 
 ## TODO Tasks
 
-- [] Dynamically add input fields for columns and joins so its always n+1
-- [] Accommodate dynamic inputs in the string builder
-- [] Drop down lists to allow the user to select different join types
-- [] Where clause input
-- [] Delete button on list page to delete items from json object
-- [] Create select statements to go with input statements
-- [] Update the json to have a documented relation between tables and their columns
-- [] Update json stuct to use this format {stepName, toTableName, fromTableName, fromToColRelations[], toFromColRelations[], selectStatement, insertStatement}
-- [] Listview displays json in beautified format
+- [❌] Dynamically add input fields for columns and joins so its always n+1
+- [❌] Accommodate dynamic inputs in the string builder
+- [❌] Drop down lists to allow the user to select different join types
+- [❌] Where clause input
+- [❌] Delete button on list page to delete items from json object
+- [❌] Create select statements to go with input statements
+- [❌] Update the json to have a documented relation between tables and their columns
+- [❌] Update json stuct to use this format {stepName, toTableName, fromTableName, fromToColRelations[], toFromColRelations[], selectStatement, insertStatement}
+- [❌] Listview displays json in beautified format
 - [✅] Packaged executable/enviroment for ease of use
-- [] Load saved steps back into the program use the fromToColRelations for this
-- [] Allow Editing of steps
-- [] Make forms have scrolling for overflowed content
+- [❌] Load saved steps back into the program use the fromToColRelations for this
+- [❌] Allow Editing of steps
+- [❌] Make forms have scrolling for overflowed content
 
 ## Ideal Json Output Example
 
